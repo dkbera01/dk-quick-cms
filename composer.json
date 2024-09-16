@@ -1,5 +1,5 @@
 {
-    "name": "vi/quick-cms",
+    "name": "vidi/quick-cms",
     "description": "A Laravel package for AdminLTE with admin middleware",
     "type": "library",
     "license": "MIT",
