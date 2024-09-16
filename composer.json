@@ -35,4 +35,5 @@
         "post-install-cmd": [
             "@php artisan breeze:install"
         ]
-    },
+    }
+}
