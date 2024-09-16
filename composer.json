@@ -1,0 +1,42 @@
+{
+    "name": "dk/quick-cms",
+    "description": "A Laravel package for AdminLTE with admin middleware",
+    "type": "library",
+    "license": "MIT",
+     "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/dk/quick-cms"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^11.0"
+    },
+    "require-dev": {
+        "laravel/breeze": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DK\\QuickCms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DK\\QuickCms\\QuickCmsProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "dhavalbera25",
+            "email": "dhavalbera25@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "@php artisan breeze:install"
+        ]
+    }
+}
