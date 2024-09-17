@@ -13,6 +13,7 @@ class QuickCmsProvider extends ServiceProvider
      */
     public function register(): void
     {
+        //
     }
 
     /**
