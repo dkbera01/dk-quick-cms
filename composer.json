@@ -16,9 +16,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-main": "main"
-        },
         "laravel": {
             "providers": [
                 "DK\\QuickCms\\QuickCmsProvider"
@@ -31,9 +28,5 @@
             "email": "dhavalbera25@gmail.com"
         }
     ],
-    "scripts": {
-        "post-install-cmd": [
-            "@php artisan breeze:install"
-        ]
-    }
+    "minimum-stability": "dev"
 }
