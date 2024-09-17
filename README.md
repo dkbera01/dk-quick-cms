@@ -3,5 +3,5 @@
 1. Install the package:
 
     ```bash
-    composer require your/package
+    composer require vidi/quick-cms
     ```
